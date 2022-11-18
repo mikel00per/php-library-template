@@ -17,6 +17,9 @@ help: ##@Miscellaneous Show this help
 	@echo "Written by $(SCRIPT_AUTHOR), version $(SCRIPT_VERSION)"
 	@echo "Please report any bug or error to the author."
 
+start: ##@Library Init library rename strings
+	sh start.sh
+
 run: ##@Container Build and run php container
 	docker-compose -f docker/docker-compose.yml up -d --build
 
