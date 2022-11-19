@@ -9,6 +9,9 @@ $ make help
 
 Usage: make [target] ...
 
+Library:
+  start               Init library rename strings
+
 Code:
   exec                Execute the code index
 
