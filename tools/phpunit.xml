@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit
-        cacheResult="false"
-        colors="true"
-        backupGlobals="false"
-        backupStaticAttributes="false"
-        convertDeprecationsToExceptions="true"
-        convertErrorsToExceptions="true"
-        convertNoticesToExceptions="true"
-        convertWarningsToExceptions="true"
-        processIsolation="false"
+    cacheResult="false"
+    colors="true"
+    backupGlobals="false"
+    backupStaticAttributes="false"
+    convertDeprecationsToExceptions="true"
+    convertErrorsToExceptions="true"
+    convertNoticesToExceptions="true"
+    convertWarningsToExceptions="true"
+    processIsolation="false"
 >
     <testsuites>
         <testsuite name="Units">
@@ -16,10 +16,10 @@
         </testsuite>
     </testsuites>
 
-  <coverage processUncoveredFiles="false">
-    <include>
-      <directory suffix=".php">src</directory>
-    </include>
+    <coverage processUncoveredFiles="false">
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
 
         <exclude>
             <directory>vendor</directory>
