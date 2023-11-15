@@ -1,4 +1,4 @@
-# PHP library template
+# PHP Library Template
 
 Template to make libraries in PHP
 
