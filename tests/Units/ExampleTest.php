@@ -2,7 +2,7 @@
 
 namespace Tests\PhpLibraryTemplate\Units;
 
-use \Tests\PhpLibraryTemplate\Utils\TestCase;
+use Tests\PhpLibraryTemplate\Utils\TestCase;
 
 class ExampleTest extends TestCase
 {
