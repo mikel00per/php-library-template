@@ -12,19 +12,19 @@
 >
     <testsuites>
         <testsuite name="Units">
-            <directory>tests</directory>
+            <directory>../tests</directory>
         </testsuite>
     </testsuites>
 
     <coverage processUncoveredFiles="false">
         <include>
-            <directory suffix=".php">src</directory>
+            <directory suffix=".php">../src</directory>
         </include>
 
         <exclude>
             <directory>vendor</directory>
-            <directory suffix="Interface.php">src</directory>
-            <directory suffix="index.php">src</directory>
+            <directory suffix="Interface.php">../src</directory>
+            <directory suffix="index.php">../src</directory>
         </exclude>
 
         <report>
